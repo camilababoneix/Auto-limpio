@@ -1,0 +1,13 @@
+body {
+    background-color: dark;
+    background-image: url('img/lavado2.jpg');
+}
+
+img#logo {  
+    height: 100px;
+    width: auto;  
+}
+
+#header {
+    background-image: image(lavado2);
+}
