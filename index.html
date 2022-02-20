@@ -58,7 +58,7 @@
 
     <h1 class="mb-2 bg-light p-2">Registra tus datos</h1>
 
-    <form action="" id="formulario-contacto" class="row g-3 p-4">
+    <form action="index.html" id="formulario-registo" class="row g-3 p-4" method="GET">
         <div class="col-md-6">
           <label for="nombre" class="form-label">Nombre</label>
           <input type="text" class="form-control" id="nombre">
@@ -118,7 +118,7 @@
 
   <h1 class="mb-2 bg-light p-2">Registra los datos de tu vehículo</h1>
 
-  <form action="" id="formulario-contacto" class="row g-3 p-4">
+  <form action="index.html" id="formulario-vehiculo" class="row g-3 p-4" method="GET">
       <div class="col-md-6">
         <label for="marca" class="form-label">Marca</label>
         <input type="text" class="form-control" id="marca">
@@ -135,9 +135,9 @@
       </div>
         
       <div class="col-md-6">
-          <label for="año" class="form-label">Año</label>
-          <input type="text" class="form-control" id="año" >
-          <div id="feedback-año" class="">
+          <label for="ano" class="form-label">Año</label>
+          <input type="text" class="form-control" id="ano" >
+          <div id="feedback-ano" class="">
       </div>
       </div>  
       <div class="col-md-12">
@@ -176,22 +176,22 @@
 
   <h1 class="mb-2 bg-light p-2">Selecciona tipo de servicio</h1>
 
-  <form action="" id="formulario-contacto" class="row g-3 p-4">
+  <form action="index.html" id="calcular-lavado" class="row g-3 p-4">
 
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-      <label class="form-check-label" for="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="7000" id="lavado-exterior">
+      <label class="form-check-label" for="lavado-exterior">
         Lavado exterior $7000
       </label>
     </div>
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-      <label class="form-check-label" for="flexCheckChecked">
+      <input class="form-check-input" type="checkbox" value="5000" id="lavado-motor">
+      <label class="form-check-label" for="lavado-motor">
         Lavado motor $5000
       </label>
     </div>
     <div class="col-12">
-      <button type="submit" id="submit" class="btn btn-primary">Calcular</button>
+      <button type="button" id="btn-lavado" class="btn btn-primary">Calcular</button>
     </div>
     <div class="row mt-3">
       <div class="col-md-2"><p >Neto</p></div>
@@ -265,6 +265,7 @@
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="node_modules/jquery/dist/jquery.min.js"></script> 
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="index.js"></script> 
 </body>
 </html>
